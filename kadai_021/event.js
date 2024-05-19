@@ -2,7 +2,7 @@
 const textElement = document.getElementById('text');
 const buttonElement = document.getElementById('btn');
 
-// ボタンクリック時のイベントリスナーを設定
+// ボタンクリック時のイベント処理
 buttonElement.addEventListener('click', () => {
     // 2秒後にテキストを変更
     setTimeout(() => {
